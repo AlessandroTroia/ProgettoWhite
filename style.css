@@ -1,0 +1,255 @@
+
+:root{
+    --main: #06396c; 
+    --sec: white;
+    --acc: rgb(101, 101, 101) ;
+}
+body{
+    font-family: 'Electrolize', sans-serif;
+}
+
+header{
+    background: linear-gradient(90deg, rgba(6,57,108,0.6983758700696056) 0%, rgba(6,57,108,0.6983758700696056) 100%) ,url(./media/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header h1{
+    color: var(--sec);
+    font-size: 4rem;
+    font-weight: 540;
+}
+.navbar{
+    background-color: var(--main);
+}
+.navbar-brand{
+    color: var(--sec);
+}
+.nav-link{
+    color: var(--sec);
+}
+.navbar-toggler{
+    color: var(--sec);
+}
+
+.megalorem h2{
+    font-size: 4rem;
+    font-weight: 400;
+}
+.megalorem i, .megalorem h4{
+    color: var(--main);
+    font-weight: 700;
+}
+
+.powerlorem{
+    background: linear-gradient(90deg, rgba(6, 57, 108, 0.512) 0%, rgba(6, 57, 108, 0.523) 100%) ,url(./media/power-plant-4712830_1280.jpg);
+    background-size: cover;
+    background-position: top;
+    color: var(--sec);
+    height: 400px;
+}
+.dati h2{
+    font-size: 4rem;
+    font-weight: 400
+}
+
+.panel{
+    background-color: var(--main);
+    color: var(--sec);
+    border: 3px solid white;
+    position: absolute;
+    top: -70px;
+    left: 5%;
+    z-index: 1;
+}
+.panel2{
+    background: var(--sec);
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    z-index: 99;
+}
+.panel3{
+    background-color: var(--main);
+    color: var(--sec);
+    border: 3px solid white;
+}
+.panel4{
+    background: var(--sec);
+}
+.info h3{
+    color: var(--main);
+    font-size: 2rem;
+}
+.info p{
+    color: var(--acc);
+}
+.margintop{
+    position: relative;
+    top: 750px;
+    bottom: 100px;
+}
+.bottone{
+    background-color: var(--main);
+    color: var(--sec);
+}
+.mappa_usa{
+    position: relative;
+    top: 700px;
+}
+.mappa_usa h3{
+    color: var(--main);
+    font-size: 2rem;
+}
+.mappa_usa p{
+    color: var(--acc);
+}
+.cardr{
+    position: relative;
+    top: 700px;
+}
+
+.cardr a{
+    color: white;
+    text-decoration: none;
+}
+
+.box1{
+    background: url(./media/tablet.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: var(--sec);
+    box-shadow: -18px -18px 1px 0px rgba(78,139,230,0.66); 
+}
+.box2{
+    background: url(./media/azzurro.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: var(--sec);
+    box-shadow: -18px -18px 1px 0px rgba(78,139,230,0.66);
+}
+.box3{
+    background: url(./media/3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: var(--sec);
+    box-shadow: -18px -18px 1px 0px rgba(78,139,230,0.66);  
+}
+.box4{
+    background: url(./media/neve.jpg);
+    background-size: cover;
+    background-position: top;
+    color: var(--sec);
+    box-shadow: -18px -18px 1px 0px rgba(78,139,230,0.66);  
+}
+.some_stuff{
+    position: relative;
+    top: 700px;
+    background-color: var(--main);
+    color: var(--sec);
+    height: 150px;
+}
+.explore{
+    position: relative;
+    top: 700px;
+}
+.explore a{
+    text-decoration: none;
+}
+.stuff1{
+    background: linear-gradient(0deg, rgba(6,57,108,1) 0%, rgba(6,57,108,0.45475638051044087) 100%), url(./media/sun.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.stuff2{
+    background: linear-gradient(0deg, rgba(6,57,108,1) 0%, rgba(6,57,108,0.45475638051044087) 100%), url(./media/wind.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.stuff3{
+    background: linear-gradient(0deg, rgba(6,57,108,1) 0%, rgba(6,57,108,0.45475638051044087) 100%), url(./media/wave.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.stuff4{
+    background: linear-gradient(0deg, rgba(6,57,108,1) 0%, rgba(6,57,108,0.45475638051044087) 100%), url(./media/gas.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.stuff5{
+    background: linear-gradient(0deg, rgba(6,57,108,1) 0%, rgba(6,57,108,0.45475638051044087) 100%), url(./media/oil.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.stuff6{
+    background: linear-gradient(0deg, rgba(6,57,108,1) 0%, rgba(6,57,108,0.45475638051044087) 100%), url(./media/nuclear.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.download{
+    position: relative;
+    top: 700px;
+}
+.download h2{
+    color: var(--main);
+    font-weight: 600;
+}
+.download h4{
+    color: var(--main);
+    font-weight: 600;
+}
+.download{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.stats{
+    position: relative;
+    top: 700px;
+}
+.stats h2{
+    color: var(--main);
+    font-weight: 600;
+}
+.barra{
+    background-color: var(--main);
+}
+.footer{
+    position: relative;
+    top: 700px;
+    
+}
+footer{
+    background-color: black;
+}
+footer h2{
+    color: white;
+}
+footer p{
+    color: var(--acc);
+}
+footer dd{
+    color: white;
+}
+footer a{
+    color: white;
+}
+.Other{
+    background-color: var(--main);
+    position: absolute;
+    top: -50px;
+    left: 60%;
+
+}
+
+
+/* @media screen and(max-width: 670px) {
+    .margintop{
+        position: static;
+    }
+} */
